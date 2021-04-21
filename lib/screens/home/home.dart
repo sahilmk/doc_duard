@@ -1,10 +1,11 @@
+import 'package:doc_guard/screens/home/pdf.dart';
 import 'package:flutter/material.dart';
 
-class HOME extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('home'),
+    return MaterialApp(
+      home: pdf(),
     );
   }
 }
